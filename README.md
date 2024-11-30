@@ -1,4 +1,4 @@
-# IOT-#include <WiFi.h>
+#include <WiFi.h>
 #include <FirebaseESP32.h>
 #include <Adafruit_AHTX0.h>
 
@@ -181,4 +181,5 @@ void updatePinStates() {
     digitalWrite(outputPins[i], pinState ? HIGH : LOW);
   }
 }
-아두이노 프로그램 입니다.
+
+#아두이노 프로그램 입니다.
