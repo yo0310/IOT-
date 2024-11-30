@@ -3,10 +3,10 @@
 #include <Adafruit_AHTX0.h>
 
 // Wi-Fi 및 Firebase 설정
-#define FIREBASE_HOST "your-firebase-database.firebaseio.com" // Firebase Realtime Database URL
-#define FIREBASE_AUTH "your-firebase-database-secret"         // Firebase 인증 토큰
-const char* ssid = "Your_WiFi_SSID";
-const char* password = "Your_WiFi_PASSWORD";
+#define FIREBASE_HOST "https://esp32devmoduie-default-rtdb.firebaseio.com/" // Firebase Realtime Database URL
+#define FIREBASE_AUTH "e88WgYT9HrP6KxTFKqi16Ubu4Z5otOxyJ8KXaKtl"  // Firebase 인증 토큰
+const char* ssid = "i2r";
+const char* password = "00000000";
 
 // Firebase 객체 생성
 FirebaseData firebaseData;
